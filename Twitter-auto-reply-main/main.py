@@ -2,8 +2,8 @@ import tweepy
 import time
 
 # Replace with your keys
-auth = tweepy.OAuthHandler("YOUR_API_KEY_HERE", "YOUR_API_SECRET_HERE")
-auth.set_access_token("YOUR_ACCESS_TOKEN_HERE", "YOUR_ACCESS_TOKEN_SECRET_HERE")
+auth = tweepy.OAuthHandler("7EPPcZzplJA25sKRAaNqMdMwD", "dg0UekFizUj8sW1l28O3QSzf8FR3j9iOjUnTzSnuxrpwCMsyDk")
+auth.set_access_token("1962147919429259265-kM1FybPbeBJr0s9xZShqQlChpesITf", "YLMZPxHMqKTT1KtBMx0M0ppM20AS22C27Dh5pdYYQKleZ")
 api = tweepy.API(auth)
 
 # Customize your search terms here
