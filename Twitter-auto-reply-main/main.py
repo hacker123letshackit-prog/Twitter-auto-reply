@@ -3,10 +3,10 @@ import time
 
 # Replace with your keys
 auth = tweepy.OAuth1UserHandler(
-    "YOUR_API_KEY_HERE",
-    "YOUR_API_SECRET_HERE",
-    "YOUR_ACCESS_TOKEN_HERE",
-    "YOUR_ACCESS_TOKEN_SECRET_HERE"
+    "7EPPcZzplJA25sKRAaNqMdMwD",
+    "dg0UekFizUj8sW1l28O3QSzf8FR3j9iOjUnTzSnuxrpwCMsyDk",
+    "1962147919429259265-kM1FybPbeBJr0s9xZShqQlChpesITf",
+    "YLMZPxHMqKTT1KtBMx0M0ppM20AS22C27Dh5pdYYQKleZ"
 )
 api = tweepy.API(auth)
 
